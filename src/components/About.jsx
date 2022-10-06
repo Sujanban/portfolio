@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <div className='bg-bgmain'>
       <div className='max-w-[1600px] m-auto'>
-        <div className='max-w-[1000px] m-auto p-[25px] sm:p-[50px] md:p-[10%] lg:p-[50px] xl:p-[0px] lg:flex'>
+        <div className='max-w-[1000px] m-auto p-[25px] sm:p-[50px] md:p-[10%] lg:p-[50px] xl:px-[0px]  py-[10%] lg:py-[10%] lg:flex'>
           <div className='text-colorsecondary flex-1'>
             <li className='flex items-center justify-start'>
               <h2 className='text-colorprimary text-2xl font-bold'><span className='text-neon'>01. </span>About Me</h2>
@@ -17,18 +17,21 @@ export const About = () => {
             <p className='py-2'>I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.</p>
             <p className='py-2'>Here are a few technologies I’ve been working with recently:</p>
             <ul className='grid-cols-2 grid py-2'>
-              <li  className='flex items-center py-2'><BiRightArrow className='text-neon text=sm'/>HTML</li>
-              <li  className='flex items-center py-2'><BiRightArrow  className='text-neon text-sm'/> CSS</li>
-              <li  className='flex items-center py-2'><BiRightArrow  className='text-neon text-sm'/> Tailwind</li>
-              <li  className='flex items-center py-2'><BiRightArrow  className='text-neon text-sm'/> React Js</li>
-              <li  className='flex items-center py-2'><BiRightArrow  className='text-neon text-sm'/> Javascript (ES6+)</li>
-              <li  className='flex items-center py-2'><BiRightArrow  className='text-neon text-sm'/> Wordpress</li>
+              <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text=sm' />HTML</li>
+              <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> CSS</li>
+              <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> Tailwind</li>
+              <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> React Js</li>
+              <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> Javascript (ES6+)</li>
+              <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> Wordpress</li>
             </ul>
           </div>
 
           <div className=' m-auto py-8 md:p-0 flex-1'>
             <div className='mt-8 lg:mt-0 w-[300px] h-[350px] m-auto relative border-neon border-2 rounded'>
-              <img className=' absolute w-[300px] bottom-4 right-4 rounded grayscale bg-neon transition duration-200 ease-in-out hover:grayscale-0 hover:bg-green-hover' src={profile} alt="" />
+              <div className='bg-[#60EBCD] w-[300px] h-[350px] bottom-4 right-4 absolute rounded hover:bg-colorprimary'>
+                <img className='opacity-80  w-[300px] bottom-4 right-4 rounded transition duration-200 ease-in-out hover:opacity-100 hover:bg-green-hover' src={profile} alt="" />
+              </div>
+
             </div>
           </div>
         </div>

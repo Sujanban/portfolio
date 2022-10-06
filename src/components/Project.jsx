@@ -8,32 +8,37 @@ export const Project = () => {
     return (
         <div className='bg-bgmain text-colorprimary'>
             <div className='max-w-[1600px] m-auto flex justify-center'>
-                <div className='w-[1000px] m-auto p-[25px] sm:p-[50px] md:p-[10%] lg:p-[50px] xl:p-[0px]'>
+                <div className='w-[1000px] m-auto p-[25px] sm:p-[50px] md:p-[10%] lg:p-[50px] xl:px-[0px]  py-[10%] lg:py-[10%]'>
                     <li className='flex items-center justify-start'>
                         <h2 className='text-colorprimary text-2xl font-bold'><span className='text-neon'>03. </span>Some Things I’ve Built</h2>
                         {/* <span className='m-8 h-[1px] w-[40%] bg-slate-500'></span> */}
                     </li>
                     <div className='relative py-4 md:py-8 flex items-center'>
-                        <img className='hidden md:block w-[60%] h-[100%] grayscale rounded hover:grayscale-0' src={project1} alt="" />
+                        <div className='w-[60%] bg-[#1C4753]'>
+                            <img className='hidden transition duration-200 ease-in md:block opacity-[0.2] hover:opacity-100 w-full h-[100%] rounded' src={project1} alt="" />
+                        </div>
+                        {/* <img className='hidden md:block w-[60%] h-[100%] grayscale brightness-50 rounded hover:grayscale-0' src={project1} alt="" /> */}
                         <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-end md:absolute bg-bgcard md:bg-transparent right-0'>
                             <div className=''>
-                                <h3 className='p-4 text-neon'>Featured Project</h3>
-                                <a className='p-4 text-2xl font-semibold' href="">Realestate Marketplace</a>
-                                <div className='p-4 text-colorsecondary rounded bg-bgcard'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</div>
-                                <li className='list-none p-4 text-colorsecondary'> <span className='p-2'>Javascript</span><span className='p-2'>PHP</span><span className='p-2'>Laravel</span><span className='p-2'>MySql</span> </li>
-                                <p className='p-2 flex '><a className='p-2' href=""><BiLinkExternal/></a><a className='p-2' href=""><FiGithub/></a></p>
+                                <h3 className='p-4 md:px-0 md:py-4 text-neon'>Featured Project</h3>
+                                <a className='p-4 md:px-0 md:py-4 text-2xl font-semibold' href="">Realestate Marketplace</a>
+                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</div>
+                                <li className='list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>Javascript</span><span className='p-2'>PHP</span><span className='p-2'>Laravel</span><span className='p-2'>MySql</span> </li>
+                                <p className='p-4 md:px-0 md:py-4 flex text-end'><a className='p-2 text-end' href=""><BiLinkExternal className='text-end' /></a><a className='p-2' href=""><FiGithub /></a></p>
                             </div>
                         </div>
                     </div>
                     <div className='relative py-4 md:py-8 flex items-center'>
-                        <img className='hidden md:block w-[60%] h-[100%] grayscale rounded hover:grayscale-0 ml-auto' src={project1} alt="" />
+                        <div className='w-[60%] bg-[#1C4753] ml-auto'>
+                            <img className='hidden transition duration-200 ease-in md:block w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto' src={project1} alt="" />
+                        </div>
                         <div className='lg:max-w-[50%] md:max-w-[80%] md:text-start md:absolute bg-bgcard md:bg-transparent left-0'>
                             <div className=''>
-                                <h3 className='p-4 text-neon'>Featured Project</h3>
-                                <a className='p-4 text-2xl font-semibold' href="">Realestate Marketplace</a>
-                                <div className='p-4 text-colorsecondary rounded bg-bgcard'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</div>
-                                <li className='list-none p-4 text-colorsecondary'> <span className='p-2'>Javascript</span><span className='p-2'>PHP</span><span className='p-2'>Laravel</span><span className='p-2'>MySql</span> </li>
-                                <li className='p-2 list-none flex text-end'><a className='p-2' href=""><BiLinkExternal/></a><a className='p-2' href=""><FiGithub/></a></li>
+                                <h3 className='p-4 md:px-0 md:py-4 text-neon'>Featured Project</h3>
+                                <a className='p-4 md:px-0 md:py-4 text-2xl font-semibold' href="">Realestate Marketplace</a>
+                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</div>
+                                <li className='list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>Javascript</span><span className='p-2'>PHP</span><span className='p-2'>Laravel</span><span className='p-2'>MySql</span> </li>
+                                <li className='p-4 md:px-0 md:py-4 list-none flex text-end'><a className='p-2' href=""><BiLinkExternal /></a><a className='p-2' href=""><FiGithub /></a></li>
                             </div>
                         </div>
                     </div>

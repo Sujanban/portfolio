@@ -5,7 +5,7 @@ export const Work = () => {
   return (
     <div className='bg-bgmain text-colorsecondary'>
       <div className='max-w-[1600px] m-auto'>
-        <div className='max-w-[1000px] m-auto p-[25px] sm:p-[50px] md:p-[10%] lg:p-[50px] xl:p-[0px]'>
+        <div className='max-w-[1000px] m-auto p-[25px] sm:p-[50px] md:p-[10%] lg:p-[50px] xl:px-[0px]  py-[10%] lg:py-[10%]'>
           <li className='flex items-center justify-start'>
             <h2 className='text-colorprimary text-2xl font-bold'><span className='text-neon'>02. </span>Where I've Worked</h2>
             {/* <span className='m-8 h-[1px] w-[10%] bg-slate-500'></span> */}
