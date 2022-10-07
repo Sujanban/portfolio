@@ -3,10 +3,12 @@ import { AiOutlineFolder } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import { BiLinkExternal } from "react-icons/bi";
 import project1 from "../images/project1.png";
+import fundingnp from "../images/fundingnp.png";
+// import {Link} from "react-router-dom";
 
 export const Project = () => {
     return (
-        <div className='bg-bgmain text-colorprimary '>
+        <div id='project' className='bg-bgmain text-colorprimary '>
             <div className='max-w-[1600px] m-auto flex justify-center'>
                 <div data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" className='w-full md:w-[1000px] m-auto p-[25px] sm:p-[50px] md:p-[10%] lg:p-[50px] xl:px-[0px]  py-[10%] lg:py-[10%]'>
                     <li className='flex items-center justify-start'>
@@ -20,23 +22,29 @@ export const Project = () => {
                             <div className=''>
                                 <h3 className='p-4 md:px-0 md:py-4 text-neon text-sm md:text-base'>Featured Project</h3>
                                 <a className='p-4 md:px-0 md:py-4 text-xl md:text-2xl font-semibold' href="">Realestate Marketplace</a>
-                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</div>
+                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>A minimalistic marketplace where realestate owners can list their propery and the customer can view and contact to respective owner for buying & selling.</div>
                                 <li className='flex-wrap flex justify-start md:justify-end list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>Javascript</span><span className='p-2'>PHP</span><span className='p-2'>Laravel</span><span className='p-2'>MySql</span> </li>
-                                <p className='p-4 md:px-0 md:py-4 flex text-end md:float-right'><a className='p-2 text-end' href=""><BiLinkExternal className='text-end' /></a><a className='p-2' href=""><FiGithub /></a></p>
+                                <p className='p-4 md:px-0 md:py-4 flex text-end md:float-right'>
+                                    <a className='p-2 text-end' href=""><BiLinkExternal className='text-end' /></a>
+                                    <a className='p-2' href="https://github.com/Sujanban/realesto-realestate-marketplace" target="_blank"><FiGithub /></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div className='relative py-4 md:py-8 flex items-center my-12'>
                         <div className='w-[60%] bg-[#1C4753] md:ml-auto  hidden md:block'>
-                            <img className=' transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto' src={project1} alt="" />
+                            <img className=' transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto' src={fundingnp} alt="" />
                         </div>
                         <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-start md:absolute bg-bgcard md:bg-transparent left-0'>
                             <div className=''>
                                 <h3 className='p-4 md:px-0 md:py-4 text-neon text-sm md:text-base'>Featured Project</h3>
-                                <a className='p-4 md:px-0 md:py-4 text-xl md:text-2xl font-semibold' href="">Realestate Marketplace</a>
-                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</div>
-                                <li className='flex-wrap flex list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>Javascript</span><span className='p-2'>PHP</span><span className='p-2'>Laravel</span><span className='p-2'>MySql</span> </li>
-                                <li className='p-4 md:px-0 md:py-4 list-none flex text-end'><a className='p-2' href=""><BiLinkExternal /></a><a className='p-2' href=""><FiGithub /></a></li>
+                                <a className='p-4 md:px-0 md:py-4 text-xl md:text-2xl font-semibold' href="">FundingNp Crowfunding</a>
+                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>Funding Np is the Crowdfunding Platform for Nepal where people on need can gather the fund for their work,treatment,NGO,etc.</div>
+                                <li className='flex-wrap flex list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>Javascript</span><span className='p-2'>React Js</span> </li>
+                                <li className='p-4 md:px-0 md:py-4 list-none flex text-end'>
+                                    <a className='p-2' href=""><BiLinkExternal /></a>
+                                    <a className='p-2' href="https://github.com/Sujanban/crowdfunding" target='_blank'><FiGithub /></a>
+                                    </li>
                             </div>
                         </div>
                     </div>
@@ -54,7 +62,7 @@ export const Project = () => {
                                 </p>
                                 <p className='py-2 text-sm text-colorsecondary'><span>Algolia</span><span className='p-2'>Wordpress</span><span>PHP</span></p>
                             </div>
-                            <div  className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px] hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
+                            <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px] hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
                                 <div className='flex justify-between items-center py-2'>
                                     <div>
                                         <AiOutlineFolder className='text-5xl text-neon' />
@@ -69,7 +77,7 @@ export const Project = () => {
                                 </p>
                                 <p className='py-2 text-sm text-colorsecondary'><span>Algolia</span><span className='p-2'>Wordpress</span><span>PHP</span></p>
                             </div>
-                            <div  className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px]  hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
+                            <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px]  hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
                                 <div className='flex justify-between items-center py-2'>
                                     <AiOutlineFolder className='text-5xl text-neon' />
                                     <a className='hover:text-colorprimary' href=""><FiGithub className='text-2xl text-colorsecondary' /></a>
@@ -79,7 +87,7 @@ export const Project = () => {
                                 </p>
                                 <p className='py-2 text-sm text-colorsecondary'><span>Algolia</span><span className='p-2'>Wordpress</span><span>PHP</span></p>
                             </div>
-                            <div  className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px] hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
+                            <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px] hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
                                 <div className='flex justify-between items-center py-2'>
                                     <div>
                                         <AiOutlineFolder className='text-5xl text-neon' />
@@ -94,7 +102,7 @@ export const Project = () => {
                                 </p>
                                 <p className='py-2 text-sm text-colorsecondary'><span>Algolia</span><span className='p-2'>Wordpress</span><span>PHP</span></p>
                             </div>
-                            <div  className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px]  hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
+                            <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px]  hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
                                 <div className='flex justify-between items-center py-2'>
                                     <AiOutlineFolder className='text-5xl text-neon' />
                                     <a className='hover:text-colorprimary' href=""><FiGithub className='text-2xl text-colorsecondary' /></a>
@@ -104,7 +112,7 @@ export const Project = () => {
                                 </p>
                                 <p className='py-2 text-sm text-colorsecondary'><span>Algolia</span><span className='p-2'>Wordpress</span><span>PHP</span></p>
                             </div>
-                            <div  className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px] hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
+                            <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px] hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
                                 <div className='flex justify-between items-center py-2'>
                                     <div>
                                         <AiOutlineFolder className='text-5xl text-neon' />

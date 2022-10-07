@@ -6,3 +6,6 @@
 *{
     font-family: 'SF Mono', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
