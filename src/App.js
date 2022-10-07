@@ -1,3 +1,6 @@
+import { useEffect, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './App.css';
 import { About } from './components/About';
 import { Contact } from './components/Contact';
@@ -7,19 +10,42 @@ import { Navbar } from './components/Navbar';
 import { Project } from './components/Project';
 import { Sidebar } from './components/Sidebar';
 import { Work } from './components/Work';
-                
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+
+
 
 function App() {
+  const [loading, setLoading] = useState(false);
+  AOS.init();
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 2500);
+  }, []);
   return (
     <>
-    <Navbar/>
-    <Sidebar/>
-    <Hero/>
-    <About/>
-    <Work/>
-    <Project/>
-    <Contact/>
-    <Footer/>
+      {loading ?
+        <div className='loader h-[100vh] w-full bg-bgmain flex justify-center items-center'>
+          <ClimbingBoxLoader
+            color={'#64ffda'}
+            loading={loading}
+            size={20}
+            aria-label="Loading Spinner"
+          />
+        </div>
+        :
+        <>
+          <Navbar />
+          <Sidebar />
+          <Hero />
+          <About />
+          <Work />
+          <Project />
+          <Contact />
+          <Footer />
+        </>
+      }
     </>
   );
 }
