@@ -23,16 +23,16 @@ export const Navbar = () => {
                         <AiOutlineClose onClick={ToggleClass} />
                     </li>
                     <li data-aos="fade-down" data-aos-delay="50" className='p-2 py-8 hover:text-neon' >
-                        <a className='p-2 text-[13px]' href='#about'><span className='text-neon'>01. </span>About</a>
+                        <a className='p-2 text-[13px]' href='#about' onClick={()=>setState(false)}><span className='text-neon'>01. </span>About</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="150" className='p-2 py-8 hover:text-neon' >
-                        <a className='p-2 text-[13px]' href='#experience'><span className='text-neon'>02. </span>Experiance</a>
+                        <a className='p-2 text-[13px]' href='#experience' onClick={()=>setState(false)}><span className='text-neon'>02. </span>Experiance</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="250" className='p-2 py-8 hover:text-neon' >
-                        <a className='p-2 text-[13px]' href='#project'><span className='text-neon'>03. </span>Work</a>
+                        <a className='p-2 text-[13px]' href='#project' onClick={()=>setState(false)}><span className='text-neon'>03. </span>Work</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="350" className='p-2 py-8 hover:text-neon' >
-                        <a className='p-2 text-[13px]' href='#contact'><span className='text-neon'>04. </span>Contact</a>
+                        <a className='p-2 text-[13px]' href='#contact' onClick={()=>setState(false)}><span className='text-neon'>04. </span>Contact</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="450" className='p-2 py-8' >
                         <a className='transtition duration-200 ease-in py-2 px-4 hover:bg-green-hover text-neon border-neon border rounded' href={cv} download>Resume</a>
