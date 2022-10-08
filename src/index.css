@@ -1,7 +1,7 @@
+@import url('https://v1.fontapi.ir/css/SFMono');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('http://fonts.cdnfonts.com/css/sf-mono');
 
 *{
     font-family: 'SF Mono', sans-serif;
