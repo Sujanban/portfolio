@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../images/profile.png'
+import profile from '../images/sujanban-frontend-developer.webp'
 import { BiRightArrow } from "react-icons/bi";
 
 export const About = () => {

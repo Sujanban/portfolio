@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logoBig from "../images/logo-512.png";
+import logoBig from "../images/sujanban-frontend-developer-logo.webp";
 import { RiBarChartHorizontalLine } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import cv from "../images/CV.pdf";
