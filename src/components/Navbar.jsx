@@ -15,7 +15,7 @@ export const Navbar = () => {
             <nav className=' flex px-8 md:px-12 h-[10vh] justify-between items-center bg-bgmain text-colorprimary text-sm'>
                 <div>
                     <a className='text-3xl text-neon flex items-center justify-center' href="#home">
-                        <img className='h-12' src={logoBig} alt="" data-aos="zoom-in" />
+                        <img className='h-12 w-12' src={logoBig} alt="" data-aos="zoom-in" />
                     </a>
                 </div>
                 <ul id='nav' className={` ${state ? 'flex right-0 top-0' : ' hidden'} right-0 top-0 transition ease md:flex flex w-[300px] sm:w-[400px] md:w-auto bg-bgcard md:bg-transparent fixed md:relative z-50 h-[100vh] md:h-auto flex-col md:flex-row items-center justify-center`}>
