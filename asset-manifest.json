@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24f1d6f1.css",
-    "main.js": "/static/js/main.e469e328.js",
+    "main.js": "/static/js/main.d9425239.js",
     "static/media/CV.pdf": "/static/media/CV.670563b5f02cbb1694c5.pdf",
     "static/media/project1.webp": "/static/media/project1.5cf1331ac79ba8540625.webp",
     "static/media/fundingnp.webp": "/static/media/fundingnp.e79d5298ee00b5b31c5f.webp",
@@ -9,10 +9,10 @@
     "static/media/sujanban-frontend-developer-logo.webp": "/static/media/sujanban-frontend-developer-logo.cfa333c8194c2e792546.webp",
     "index.html": "/index.html",
     "main.24f1d6f1.css.map": "/static/css/main.24f1d6f1.css.map",
-    "main.e469e328.js.map": "/static/js/main.e469e328.js.map"
+    "main.d9425239.js.map": "/static/js/main.d9425239.js.map"
   },
   "entrypoints": [
     "static/css/main.24f1d6f1.css",
-    "static/js/main.e469e328.js"
+    "static/js/main.d9425239.js"
   ]
 }
