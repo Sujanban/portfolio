@@ -16,7 +16,7 @@ export const Project = () => {
                     </li>
                     <div className='relative py-4 md:py-8 flex items-center my-12'>
                         <div className='w-[60%] bg-[#1C4753] hidden md:block'>
-                            <img className=' transition duration-200 ease-in  opacity-[0.2] hover:opacity-100 w-full h-[100%] rounded' src={project1} alt="" />
+                            <img className=' transition duration-200 ease-in  opacity-[0.2] hover:opacity-100 w-full h-[100%] rounded' src={project1} alt="realestate marketplace developed by sujan ban" />
                         </div>
                         <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-end md:absolute bg-bgcard md:bg-transparent md:right-0'>
                             <div className=''>
@@ -33,7 +33,7 @@ export const Project = () => {
                     </div>
                     <div className='relative py-4 md:py-8 flex items-center my-12'>
                         <div className='w-[60%] bg-[#1C4753] md:ml-auto  hidden md:block'>
-                            <img className=' transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto' src={fundingnp} alt="" />
+                            <img className=' transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto' src={fundingnp} alt="crowdfunding website of nepal by sujan ban" />
                         </div>
                         <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-start md:absolute bg-bgcard md:bg-transparent left-0'>
                             <div className=''>

@@ -28,7 +28,7 @@ export const About = () => {
           <div className=' m-auto py-8 md:p-0 flex-1'>
             <div className='mt-8 lg:mt-0 w-[200px] h-[250px] sm:w-[300px] sm:h-[350px] m-auto relative border-neon border-2 rounded'>
               <div className='bg-[#60EBCD] w-[200px] h-[250px] sm:w-[300px] sm:h-[350px] bottom-4 right-4 absolute rounded hover:bg-colorprimary'>
-                <img className='opacity-80 object-cover w-[200px] h-[250px] sm:h-[350px] sm:w-[300px] bottom-4 right-4 rounded transition duration-200 ease-in-out hover:opacity-100 hover:bg-green-hover' src={profile} alt="" />
+                <img className='opacity-80 object-cover w-[200px] h-[250px] sm:h-[350px] sm:w-[300px] bottom-4 right-4 rounded transition duration-200 ease-in-out hover:opacity-100 hover:bg-green-hover' src={profile} alt="Sujan Ban - Frontend Developer" />
               </div>
 
             </div>
