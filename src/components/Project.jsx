@@ -4,6 +4,7 @@ import { FiGithub } from "react-icons/fi";
 import { BiLinkExternal } from "react-icons/bi";
 import project1 from "../images/project1.webp";
 import fundingnp from "../images/fundingnp.webp";
+import shortner from "../images/shortner.webp";
 // import {Link} from "react-router-dom";
 
 export const Project = () => {
@@ -33,17 +34,17 @@ export const Project = () => {
                     </div>
                     <div className='relative py-4 md:py-8 flex items-center my-12'>
                         <div className='w-[60%] bg-[#1C4753] md:ml-auto  hidden md:block'>
-                            <img className=' transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto' src={fundingnp} alt="crowdfunding website of nepal by sujan ban" />
+                            <img className=' transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto' src={shortner} alt="Shortner - Ads free URL Shortner by sujan ban" />
                         </div>
                         <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-start md:absolute bg-bgcard md:bg-transparent left-0'>
                             <div className=''>
                                 <h3 className='p-4 md:px-0 md:py-4 text-neon text-sm md:text-base'>Featured Project</h3>
-                                <a className='p-4 md:px-0 md:py-4 text-xl md:text-2xl font-semibold' href="">FundingNp Crowfunding</a>
-                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>Funding Np is the Crowdfunding Platform for Nepal where people on need can gather the fund for their work,treatment,NGO,etc.</div>
-                                <li className='flex-wrap flex list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>Javascript</span><span className='p-2'>React Js</span> </li>
+                                <a className='p-4 md:px-0 md:py-4 text-xl md:text-2xl font-semibold' href="">Shortner - Ads free URL Shortner</a>
+                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>Shortner is a competative and highly optimized Ads free URL shortner with Zero Service Fee.</div>
+                                <li className='flex-wrap flex list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>React Js</span><span className='p-2'>Tailwind CSS</span> </li>
                                 <li className='p-4 md:px-0 md:py-4 list-none flex text-end'>
-                                    <a className='p-2' href=""><BiLinkExternal /></a>
-                                    <a className='p-2' href="https://github.com/Sujanban/crowdfunding" target='_blank'><FiGithub /></a>
+                                    <a className='p-2' href="https://sujanban.github.io/shortner/"><BiLinkExternal /></a>
+                                    <a className='p-2' href="https://github.com/Sujanban/shortner" target='_blank'><FiGithub /></a>
                                     </li>
                             </div>
                         </div>
@@ -57,12 +58,37 @@ export const Project = () => {
                                     <AiOutlineFolder className='text-5xl text-neon' />
                                     <a className='hover:text-colorprimary' href=""><FiGithub className='text-2xl text-colorsecondary' /></a>
                                 </div>
-                                <h2 className='py-2 font-bold hover:text-neon'>Integrating Algolia Search with WordPress Multisite</h2>
-                                <p className='text-sm py-2 text-colorsecondary'>Building a custom multisite compatible WordPress plugin to build global search with Algolia
+                                <h2 className='py-2 font-bold hover:text-neon'>Word and Character Counter</h2>
+                                <p className='text-sm py-2 text-colorsecondary'>Basic word counter webapp developed using Javascript
                                 </p>
-                                <p className='py-2 text-sm text-colorsecondary'><span>Algolia</span><span className='p-2'>Wordpress</span><span>PHP</span></p>
+                                <p className='py-2 text-sm text-colorsecondary'><span>HTML</span><span className='p-2'>CSS</span><span>Javascript</span></p>
                             </div>
                             <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px] hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
+                                <div className='flex justify-between items-center py-2'>
+                                    <div>
+                                        <AiOutlineFolder className='text-5xl text-neon' />
+                                    </div>
+                                    <div className='flex items-center justify-center'>
+                                        <a className='hover:text-colorprimary' href=""><FiGithub className='text-2xl m-2 text-colorsecondary' /></a>
+                                        <a href=""><BiLinkExternal className='text-2xl m-2 text-colorsecondary' /></a>
+                                    </div>
+                                </div>
+                                <h2 className='py-2 font-bold hover:text-neon'>Basic Shanke Game using Javascript</h2>
+                                <p className='text-sm py-2 text-colorsecondary'>Building a basic Snake game using javascript the concept of javascript canvas
+                                </p>
+                                <p className='py-2 text-sm text-colorsecondary'><span>HTML</span><span className='p-2'>CSS</span><span>Javascript</span></p>
+                            </div>
+                            <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px]  hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
+                                <div className='flex justify-between items-center py-2'>
+                                    <AiOutlineFolder className='text-5xl text-neon' />
+                                    <a className='hover:text-colorprimary' href=""><FiGithub className='text-2xl text-colorsecondary' /></a>
+                                </div>
+                                <h2 className='py-2 font-bold hover:text-neon'>Weather App using - Openweathermap API</h2>
+                                <p className='text-sm py-2 text-colorsecondary'>Built a fully functional weather app where user can search the weather of particular location.
+                                </p>
+                                <p className='py-2 text-sm text-colorsecondary'><span>React Js</span><span className='p-2'>Tailwind CSS</span><span></span></p>
+                            </div>
+                            {/* <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px] hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
                                 <div className='flex justify-between items-center py-2'>
                                     <div>
                                         <AiOutlineFolder className='text-5xl text-neon' />
@@ -101,32 +127,7 @@ export const Project = () => {
                                 <p className='text-sm py-2 text-colorsecondary'>Building a custom multisite compatible WordPress plugin to build global search with Algolia
                                 </p>
                                 <p className='py-2 text-sm text-colorsecondary'><span>Algolia</span><span className='p-2'>Wordpress</span><span>PHP</span></p>
-                            </div>
-                            <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px]  hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
-                                <div className='flex justify-between items-center py-2'>
-                                    <AiOutlineFolder className='text-5xl text-neon' />
-                                    <a className='hover:text-colorprimary' href=""><FiGithub className='text-2xl text-colorsecondary' /></a>
-                                </div>
-                                <h2 className='py-2 font-bold hover:text-neon'>Integrating Algolia Search with WordPress Multisite</h2>
-                                <p className='text-sm py-2 text-colorsecondary'>Building a custom multisite compatible WordPress plugin to build global search with Algolia
-                                </p>
-                                <p className='py-2 text-sm text-colorsecondary'><span>Algolia</span><span className='p-2'>Wordpress</span><span>PHP</span></p>
-                            </div>
-                            <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px] hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
-                                <div className='flex justify-between items-center py-2'>
-                                    <div>
-                                        <AiOutlineFolder className='text-5xl text-neon' />
-                                    </div>
-                                    <div className='flex items-center justify-center'>
-                                        <a className='hover:text-colorprimary' href=""><FiGithub className='text-2xl m-2 text-colorsecondary' /></a>
-                                        <a href=""><BiLinkExternal className='text-2xl m-2 text-colorsecondary' /></a>
-                                    </div>
-                                </div>
-                                <h2 className='py-2 font-bold hover:text-neon'>Integrating Algolia Search with WordPress Multisite</h2>
-                                <p className='text-sm py-2 text-colorsecondary'>Building a custom multisite compatible WordPress plugin to build global search with Algolia
-                                </p>
-                                <p className='py-2 text-sm text-colorsecondary'><span>Algolia</span><span className='p-2'>Wordpress</span><span>PHP</span></p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
