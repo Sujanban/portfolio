@@ -3,9 +3,7 @@ import { AiOutlineFolder } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import { BiLinkExternal } from "react-icons/bi";
 import project1 from "../images/project1.webp";
-import fundingnp from "../images/fundingnp.webp";
 import shortner from "../images/shortner.webp";
-// import {Link} from "react-router-dom";
 
 export const Project = () => {
     return (

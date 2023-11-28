@@ -10,7 +10,6 @@ export const About = () => {
           <div className='text-colorsecondary flex-1'>
             <li className='flex items-center justify-start'>
               <h2 className='text-colorprimary text-xl md:text-2xl font-bold'><span className='text-neon'>01. </span>About Me</h2>
-              {/* <span className='m-8 h-[1px] w-[40%] bg-slate-500'></span> */}
             </li>
             <p className='py-4 text-sm md:text-base'>Hello! My name is Sujan and i am from Itahari,Nepal. I enjoy creating things that live on the internet. My interest in web development started back in 2018 when I decided to try creating a college project — turnd out taughing me a lot about HTML & CSS!</p>
             <p className='py-2 text-sm md:text-base'>Fast-forward to today, and I’ve had the privilege of working at an travel ticket booking agency, a start-up, a huge corporation, and a student-led idea. My main focus these days is building accessible, inclusive interface and digital experiences at okayjourney for daily users.</p>
