@@ -3,7 +3,7 @@ import { AiOutlineFolder } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import { BiLinkExternal } from "react-icons/bi";
 import project1 from "../images/project1.webp";
-import shortner from "../images/shortner.webp";
+import project2 from "../images/project2.webp";
 
 export const Project = () => {
     return (
@@ -32,17 +32,17 @@ export const Project = () => {
                     </div>
                     <div className='relative py-4 md:py-8 flex items-center my-12'>
                         <div className='w-[60%] bg-[#1C4753] md:ml-auto  hidden md:block'>
-                            <img className=' transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto' src={shortner} alt="Shortner - Ads free URL Shortner by sujan ban" />
+                            <img className=' transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto' src={project2} alt="Shortner - Ads free URL Shortner by sujan ban" />
                         </div>
                         <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-start md:absolute bg-bgcard md:bg-transparent left-0'>
                             <div className=''>
                                 <h3 className='p-4 md:px-0 md:py-4 text-neon text-sm md:text-base'>Featured Project</h3>
-                                <a className='p-4 md:px-0 md:py-4 text-xl md:text-2xl font-semibold' href="">Shortner - Ads free URL Shortner</a>
-                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>Shortner is a competative and highly optimized Ads free URL shortner with Zero Service Fee.</div>
+                                <a className='p-4 md:px-0 md:py-4 text-xl md:text-2xl font-semibold' href="">Shopzilla - Ecommerce Website</a>
+                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>This project contains a fully functional Ecommerce frontend with react js</div>
                                 <li className='flex-wrap flex list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>React Js</span><span className='p-2'>Tailwind CSS</span> </li>
                                 <li className='p-4 md:px-0 md:py-4 list-none flex text-end'>
                                     <a className='p-2' href="https://sujanban.github.io/shortner/"><BiLinkExternal /></a>
-                                    <a className='p-2' href="https://github.com/Sujanban/shortner" target='_blank'><FiGithub /></a>
+                                    <a className='p-2' href="https://github.com/Sujanban/Shopzilla_Ecommerce" target='_blank'><FiGithub /></a>
                                     </li>
                             </div>
                         </div>
