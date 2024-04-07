@@ -41,7 +41,7 @@ export const Project = () => {
                                 <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>This project contains a fully functional Ecommerce frontend with react js</div>
                                 <li className='flex-wrap flex list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>React Js</span><span className='p-2'>Tailwind CSS</span> </li>
                                 <li className='p-4 md:px-0 md:py-4 list-none flex text-end'>
-                                    <a className='p-2' href="https://sujanban.github.io/shortner/"><BiLinkExternal /></a>
+                                    {/* <a className='p-2' href="https://sujanban.github.io/shortner/"><BiLinkExternal /></a> */}
                                     <a className='p-2' href="https://github.com/Sujanban/Shopzilla_Ecommerce" target='_blank'><FiGithub /></a>
                                     </li>
                             </div>
