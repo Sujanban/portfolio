@@ -32,7 +32,10 @@ export const Navbar = () => {
                         <a className='p-2 text-[13px]' href='#project' onClick={()=>setState(false)}><span className='text-neon'>03. </span>Work</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="350" className='p-2 py-8 hover:text-neon' >
-                        <a className='p-2 text-[13px]' href='#contact' onClick={()=>setState(false)}><span className='text-neon'>04. </span>Contact</a>
+                        <a className='p-2 text-[13px]' href='#achievements' onClick={()=>setState(false)}><span className='text-neon'>04. </span>Achievement</a>
+                    </li>
+                    <li data-aos="fade-down" data-aos-delay="350" className='p-2 py-8 hover:text-neon' >
+                        <a className='p-2 text-[13px]' href='#contact' onClick={()=>setState(false)}><span className='text-neon'>05. </span>Contact</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="450" className='p-2 py-8' >
                         <a className='transtition duration-200 ease-in py-2 px-4 hover:bg-green-hover text-neon border-neon border rounded' href={cv} download>Resume</a>

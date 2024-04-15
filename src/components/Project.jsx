@@ -25,7 +25,7 @@ export const Project = () => {
                                 <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>Project consist of multiple pages with main focus on frontend with little implemention of backend</div>
                                 <li className='flex-wrap flex justify-start md:justify-end list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'><span className='p-2'>React Js</span><span className='p-2'>Node</span><span className='p-2'>Mongo DB</span><span className='p-2'>Express</span><span className='p-2'>Tailwind CSS</span> </li>
                                 <p className='p-4 md:px-0 md:py-4 flex text-end md:float-right'>
-                                    <a className='p-2 text-end' href=""><BiLinkExternal className='text-end' /></a>
+                                    {/* <a className='p-2 text-end' href=""><BiLinkExternal className='text-end' /></a> */}
                                     <a className='p-2' href="https://github.com/Sujanban/crowdfunding_np" target="_blank"><FiGithub /></a>
                                 </p>
                             </div>
@@ -42,8 +42,8 @@ export const Project = () => {
                                 <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>Project consist of Ecommerce functionality with pages like home, explore, search, cart, checkout.</div>
                                 <li className='flex-wrap flex list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>React Js</span><span className='p-2'>Tailwind CSS</span> </li>
                                 <li className='p-4 md:px-0 md:py-4 list-none flex text-end'>
-                                    {/* <a className='p-2' href="https://sujanban.github.io/shortner/"><BiLinkExternal /></a> */}
                                     <a className='p-2' href="https://github.com/Sujanban/Shopzilla_Ecommerce" target='_blank'><FiGithub /></a>
+                                    <a className='p-2 text-end' target='_blank' href="https://shopzillaecommerce.netlify.app/"><BiLinkExternal className='text-end' /></a>
                                     </li>
                             </div>
                         </div>
@@ -60,7 +60,6 @@ export const Project = () => {
                                 <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>A minimalistic marketplace where realestate owners can list their propery and the customer can view and contact to respective owner for buying & selling.</div>
                                 <li className='flex-wrap flex justify-start md:justify-end list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>Javascript</span><span className='p-2'>PHP</span><span className='p-2'>Laravel</span><span className='p-2'>MySql</span> </li>
                                 <p className='p-4 md:px-0 md:py-4 flex text-end md:float-right'>
-                                    {/* <a className='p-2 text-end' href=""><BiLinkExternal className='text-end' /></a> */}
                                     <a className='p-2' href="https://github.com/Sujanban/realesto-realestate-marketplace" target="_blank"><FiGithub /></a>
                                 </p>
                             </div>

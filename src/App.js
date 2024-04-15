@@ -11,6 +11,7 @@ import { Project } from './components/Project';
 import { Sidebar } from './components/Sidebar';
 import { Work } from './components/Work';
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import Achievements from './components/Achievements';
 // import { Routes, Route } from "react-router-dom";
 
 
@@ -43,6 +44,7 @@ function App() {
           <About />
           <Work />
           <Project />
+          <Achievements/>
           <Contact />
           <Footer />
         </>
