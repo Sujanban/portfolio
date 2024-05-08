@@ -14,9 +14,9 @@ export const Work = () => {
               <li className='list-none my-4 sm:w-full'>
                 <a className='transtition duration-200 ease-in w-full p-4 text-sm text-neon hover:bg-slate-700 border-b-4 sm:border-b-0 sm:border-l-4 border-neon' >Okayjourney</a>
               </li>
-              <li className='list-none my-4 sm:w-full'>
-                <a className='transtition duration-200 ease-in w-full p-4 text-sm hover:text-neon hover:bg-slate-700 ' href="/">TBD...</a>
-              </li>
+              {/* <li className='list-none my-4 sm:w-full'>
+                <a className='transtition duration-200 ease-in w-full p-4 text-sm hover:text-neon hover:bg-slate-700 '>TBD...</a>
+              </li> */}
             </div>
             <div>
               <h2 className='text-colorprimary text-lg'>Frontend Developer <a className='text-neon' href="https://www.okayjourney.com/" target='_blank'>@ Okayjourney</a></h2>

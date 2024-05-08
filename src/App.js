@@ -37,7 +37,7 @@ function App() {
           />
         </div>
         :
-        <>
+        <div className='scroll-container'>
           <Navbar />
           <Sidebar />
           <Hero />
@@ -47,7 +47,7 @@ function App() {
           <Achievements/>
           <Contact />
           <Footer />
-        </>
+        </div>
       }
     </>
   );
