@@ -25,7 +25,7 @@ export const Project = () => {
                                 <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>Project consist of multiple pages with main focus on frontend with little implemention of backend</div>
                                 <li className='flex-wrap flex justify-start md:justify-end list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'><span className='p-2'>React Js</span><span className='p-2'>Node</span><span className='p-2'>Mongo DB</span><span className='p-2'>Express</span><span className='p-2'>Tailwind CSS</span> </li>
                                 <p className='p-4 md:px-0 md:py-4 flex text-end md:float-right'>
-                                    {/* <a className='p-2 text-end' href=""><BiLinkExternal className='text-end' /></a> */}
+                                    <a className='p-2 text-end' href="https://collab-9000.onrender.com/"><BiLinkExternal className='text-end' /></a>
                                     <a className='p-2' href="https://github.com/Sujanban/crowdfunding_np" target="_blank"><FiGithub /></a>
                                 </p>
                             </div>

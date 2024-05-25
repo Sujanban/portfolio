@@ -18,8 +18,8 @@ export const About = () => {
               <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text=sm' />HTML</li>
               <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> CSS</li>
               <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> Tailwind</li>
-              <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> React Js</li>
-              <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> Javascript (ES6+)</li>
+              <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> React</li>
+              <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> Javascript</li>
               <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> Wordpress</li>
             </ul>
           </div>
