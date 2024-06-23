@@ -48,7 +48,6 @@ export const Project = () => {
                             </div>
                         </div>
                     </div>
-                    
                     <div className='relative py-4 md:py-8 flex items-center my-12'>
                         <div className='w-[60%] bg-[#1C4753] hidden md:block'>
                             <img className=' transition duration-200 ease-in  opacity-[0.2] hover:opacity-100 w-full h-[100%] rounded' src={project1} alt="realestate marketplace developed by sujan ban" />
