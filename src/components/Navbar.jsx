@@ -3,7 +3,7 @@ import logoBig from "../images/sujanban-frontend-developer-logo.webp";
 import { RiBarChartHorizontalLine } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 // import cv from "../images/CV.pdf";
-import cv from "../images/sujan_ban_web_developer.pdf";
+import cv from '../images/Sujan_Ban_Web_Developer.pdf'
 
 export const Navbar = () => {
     const [state, setState] = useState(false);
@@ -24,19 +24,19 @@ export const Navbar = () => {
                         <AiOutlineClose onClick={ToggleClass} />
                     </li>
                     <li data-aos="fade-down" data-aos-delay="50" className='p-2 py-8 hover:text-neon' >
-                        <a className='p-2 text-[13px]' href='#about' onClick={()=>setState(false)}><span className='text-neon'>01. </span>About</a>
+                        <a className='p-2 text-[13px]' href='#about' onClick={() => setState(false)}><span className='text-neon'>01. </span>About</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="150" className='p-2 py-8 hover:text-neon' >
-                        <a className='p-2 text-[13px]' href='#experience' onClick={()=>setState(false)}><span className='text-neon'>02. </span>Experiance</a>
+                        <a className='p-2 text-[13px]' href='#experience' onClick={() => setState(false)}><span className='text-neon'>02. </span>Experiance</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="250" className='p-2 py-8 hover:text-neon' >
-                        <a className='p-2 text-[13px]' href='#project' onClick={()=>setState(false)}><span className='text-neon'>03. </span>Work</a>
+                        <a className='p-2 text-[13px]' href='#project' onClick={() => setState(false)}><span className='text-neon'>03. </span>Work</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="350" className='p-2 py-8 hover:text-neon' >
-                        <a className='p-2 text-[13px]' href='#achievements' onClick={()=>setState(false)}><span className='text-neon'>04. </span>Achievement</a>
+                        <a className='p-2 text-[13px]' href='#achievements' onClick={() => setState(false)}><span className='text-neon'>04. </span>Achievement</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="350" className='p-2 py-8 hover:text-neon' >
-                        <a className='p-2 text-[13px]' href='#contact' onClick={()=>setState(false)}><span className='text-neon'>05. </span>Contact</a>
+                        <a className='p-2 text-[13px]' href='#contact' onClick={() => setState(false)}><span className='text-neon'>05. </span>Contact</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="450" className='p-2 py-8' >
                         <a className='transtition duration-200 ease-in py-2 px-4 hover:bg-green-hover text-neon border-neon border rounded' href={cv} download>Resume</a>
