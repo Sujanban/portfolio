@@ -5,6 +5,7 @@ import { BiLinkExternal } from "react-icons/bi";
 import project1 from "../images/project1.webp";
 import project2 from "../images/project2.webp";
 import project3 from "../images/project3.png";
+import project4 from "../images/project4.png";
 
 export const Project = () => {
     return (
@@ -44,7 +45,7 @@ export const Project = () => {
                                 <li className='p-4 md:px-0 md:py-4 list-none flex text-end'>
                                     <a className='p-2' href="https://github.com/Sujanban/Shopzilla_Ecommerce" target='_blank'><FiGithub /></a>
                                     <a className='p-2 text-end' target='_blank' href="https://shopzillaecommerce.netlify.app/"><BiLinkExternal className='text-end' /></a>
-                                    </li>
+                                </li>
                             </div>
                         </div>
                     </div>
@@ -64,6 +65,30 @@ export const Project = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='relative py-4 md:py-8 flex items-center my-12'>
+                        <div className='w-[60%] bg-[#1C4753] md:ml-auto  hidden md:block'>
+                            <img className=' transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto' src={project4} alt="Shortner - Ads free URL Shortner by sujan ban" />
+                        </div>
+                        <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-start md:absolute bg-bgcard md:bg-transparent left-0'>
+                            <div className=''>
+                                <h3 className='p-4 md:px-0 md:py-4 text-neon text-sm md:text-base'>Featured Project</h3>
+                                <h1 className='p-4 md:px-0 md:py-4 text-xl md:text-2xl font-semibold'>Agro Bot</h1>
+                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>The project consists of an AI-powered chatbot with plant disease prediction capabilities.</div>
+                                <li className='flex-wrap flex list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'>
+                                    <span className='p-2'>React Js</span>
+                                    <span className='p-2'>Tailwind CSS</span>
+                                    <span className='p-2'>Node</span> <br />
+                                    <span className='p-2'>Express</span>
+                                    <span className='p-2'>MongoDB</span>
+                                    <span className='p-2'>Python</span>
+                                </li>
+                                <li className='p-4 md:px-0 md:py-4 list-none flex text-end'>
+                                    <a className='p-2' href="https://github.com/Sujanban/agrobot" target='_blank'><FiGithub /></a>
+                                    <a className='p-2 text-end' target='_blank' href="https://agrobot-cr5.pages.dev/"><BiLinkExternal className='text-end' /></a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
                     <div data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" className='text-center py-8 '>
                         <h1 className='text-xl md:text-2xl font-bold'>Other Noteworthy Projects</h1>
                         <h3 className='text-neon p-4'>view the archive</h3>
@@ -71,7 +96,7 @@ export const Project = () => {
                             <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px]  hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
                                 <div className='flex justify-between items-center py-2'>
                                     <AiOutlineFolder className='text-5xl text-neon' />
-                                    <a className='hover:text-colorprimary' target='_blank' href="https://github.com/Sujanban/BlockGallery"><FiGithub  className='text-2xl text-colorsecondary' /></a>
+                                    <a className='hover:text-colorprimary' target='_blank' href="https://github.com/Sujanban/BlockGallery"><FiGithub className='text-2xl text-colorsecondary' /></a>
                                 </div>
                                 <h2 className='py-2 font-bold hover:text-neon'>BlockGallery - NFT Marketplace</h2>
                                 <p className='text-sm py-2 text-colorsecondary'>A Web 3 based NFT Marketplace for crypto collectibles.</p>
