@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
-Sitemap: https://sujanban.com.np/sitemap.xml
+Sitemap: https://www.sujanban.com.np/sitemap.xml

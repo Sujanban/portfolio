@@ -20,7 +20,7 @@ const workData = [
     company: 'Code Dot Solution',
     website: '',
     location: 'Bagmati, Nepal',
-    role: 'Frontend Web Developer',
+    role: 'Web Developer',
     startDate: 'Jun 2024',
     endDate: 'Jan 2025',
     task: [
@@ -34,7 +34,7 @@ const workData = [
     company: 'OkayJourney Pvt Ltd',
     website: 'https://www.okayjourney.com',
     location: 'Maitrinagar, Kathmandu',
-    role: 'Frontend Web Developer Intern',
+    role: 'Web Developer Intern',
     startDate: 'Dec 2023',
     endDate: 'Feb 2024',
     task: [
