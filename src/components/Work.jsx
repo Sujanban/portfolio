@@ -3,31 +3,44 @@ import { BiRightArrow } from "react-icons/bi";
 
 const workData = [
   {
-    company: 'Biralo.studio',
+    company: 'Biralo Studio',
     website: 'https://www.biralo.studio',
     location: 'Nuremberg, Germany',
     role: 'Web Developer',
-    startDate: 'Jan 2024',
+    startDate: 'Jan 2025',
     endDate: 'Present',
     task: [
-      'Implementation of creative designs and fully functioning websites.',
-      'Continuously enhance and optimize existing client websites.',
-      'Implement effective search engine optimization (SEO) strategies.',
-      'Implement tracking infrastructure for performance marketing and sales.'
+      'Built and optimized responsive websites from creative designs.',
+      'Migrated legacy Svelte 3 code to Svelte 5 for better performance.',
+      'Implemented SEO improvements for client websites.',
+      'Set up tracking infrastructure to support performance marketing and sales.'
     ]
   },
   {
-    company: 'Okayjourney',
+    company: 'Code Dot Solution',
+    website: '',
+    location: 'Bagmati, Nepal',
+    role: 'Frontend Web Developer',
+    startDate: 'Jun 2024',
+    endDate: 'Jan 2025',
+    task: [
+      'Converted complex Figma designs into responsive web pages using React.js, HTML, and CSS.',
+      'Improved mobile responsiveness and usability across browsers and devices.',
+      'Enhanced loading speed and cross-browser compatibility.',
+      'Contributed design input that led to strong user satisfaction.'
+    ]
+  },
+  {
+    company: 'OkayJourney Pvt Ltd',
     website: 'https://www.okayjourney.com',
     location: 'Maitrinagar, Kathmandu',
-    role: 'Frontend Developer',
-    startDate: 'August 2022',
-    endDate: 'Feb 2023',
+    role: 'Frontend Web Developer Intern',
+    startDate: 'Dec 2023',
+    endDate: 'Feb 2024',
     task: [
-      'Developed and maintained Existing and New code for in-house websites primarily using HTML, CSS, JavaScript, React Js and Tailwind CSS.',
-      'Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness.',
-      'Optimized Site Performance and by managing the resources used.',
-      'Improved the website indexing on the different search engine like Google, Bing, etc.'
+      'Engineered high-performance web pages with HTML, CSS, React.js, and JavaScript.',
+      'Boosted SEO rankings through optimized page structure and speed.',
+      'Increased organic traffic with better indexing practices on Google and Bing.'
     ]
   }
 ];
@@ -73,14 +86,18 @@ export const Work = () => {
             <div>
               <h2 className="text-colorprimary text-lg">
                 {workData[selected].role}{" "}
-                <a
-                  className="text-neon"
-                  href={workData[selected].website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  @ {workData[selected].company}
-                </a>
+                {workData[selected].website ? (
+                  <a
+                    className="text-neon"
+                    href={workData[selected].website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    @ {workData[selected].company}
+                  </a>
+                ) : (
+                  <span className="text-neon">@ {workData[selected].company}</span>
+                )}
               </h2>
               <p className="py-2 text-sm">
                 {workData[selected].startDate} - {workData[selected].endDate}

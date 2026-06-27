@@ -21,8 +21,8 @@ const Achievements = () => {
                                 <BsAward className='text-5xl text-neon' />
                                 <a className='hover:text-colorprimary' target='_blank' href="https://www.facebook.com/share/p/mxtPzSqUyXbLY8gv/"><BiLinkExternal className='text-2xl text-colorsecondary' /></a>
                             </div>
-                            <h2 className='py-2 font-bold hover:text-neon'>IIC Quest 2024 Winner</h2>
-                            <p className='text-sm py-2 text-colorsecondary'>Secured 1st Position on IIC Quest 2.0 an intense 36 hours Hackathon organized by Itahari International College.</p>
+                            <h2 className='py-2 font-bold hover:text-neon'>IIC Quest 2024 Hackathon Winner</h2>
+                            <p className='text-sm py-2 text-colorsecondary'>Secured 1st place in a 36-hour hackathon focused on building tech solutions for student mental health, organized by Itahari International College.</p>
                         </div>
                         <div className='my-2 transtition duration-200 ease-in relative top-0 hover:-top-[10px] hover:text-colorprimary rounded bg-bgcard shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 md:p-8 text-left' href=''>
                             <div className='flex justify-between items-center py-2'>
