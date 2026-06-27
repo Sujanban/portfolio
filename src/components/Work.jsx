@@ -6,7 +6,7 @@ const workData = [
     company: 'Biralo Studio',
     website: 'https://www.biralo.studio',
     location: 'Nuremberg, Germany',
-    role: 'Web Developer',
+    role: 'Fullstack Developer',
     startDate: 'Jan 2025',
     endDate: 'Present',
     task: [
