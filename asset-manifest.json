@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.65ede749.css",
-    "main.js": "/static/js/main.4b060c9f.js",
+    "main.css": "/static/css/main.0a2fea26.css",
+    "main.js": "/static/js/main.b0489056.js",
     "static/media/pp-blur.png": "/static/media/pp-blur.2374c5601495f87002ac.png",
+    "static/media/MovieManiaNew.png": "/static/media/MovieManiaNew.e5ab87598a56bfaa1cd2.png",
     "static/media/project3.png": "/static/media/project3.77d4928a709f09617b53.png",
     "static/media/project4.png": "/static/media/project4.f8e4bcda977d845a546b.png",
-    "static/media/Sujan_Ban_Web_Developer.pdf": "/static/media/Sujan_Ban_Web_Developer.715f5c1590c2795f25b2.pdf",
+    "static/media/Sujan_Ban_Web_Developer.pdf": "/static/media/Sujan_Ban_Web_Developer.0951005ef76d7f61451d.pdf",
     "static/media/project2.webp": "/static/media/project2.d6b7b92cd8ea41d94d40.webp",
     "static/media/project1.webp": "/static/media/project1.5cf1331ac79ba8540625.webp",
     "static/media/sujanban-frontend-developer-logo.webp": "/static/media/sujanban-frontend-developer-logo.cfa333c8194c2e792546.webp",
     "index.html": "/index.html",
-    "main.65ede749.css.map": "/static/css/main.65ede749.css.map",
-    "main.4b060c9f.js.map": "/static/js/main.4b060c9f.js.map"
+    "main.0a2fea26.css.map": "/static/css/main.0a2fea26.css.map",
+    "main.b0489056.js.map": "/static/js/main.b0489056.js.map"
   },
   "entrypoints": [
-    "static/css/main.65ede749.css",
-    "static/js/main.4b060c9f.js"
+    "static/css/main.0a2fea26.css",
+    "static/js/main.b0489056.js"
   ]
 }
