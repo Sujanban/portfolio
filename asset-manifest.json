@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.0a2fea26.css",
-    "main.js": "/static/js/main.b0489056.js",
+    "main.js": "/static/js/main.314af8fa.js",
     "static/media/pp-blur.png": "/static/media/pp-blur.2374c5601495f87002ac.png",
     "static/media/MovieManiaNew.png": "/static/media/MovieManiaNew.e5ab87598a56bfaa1cd2.png",
+    "static/media/entrancepark-dashboard.png": "/static/media/entrancepark-dashboard.c49db4aa4afa41294c57.png",
     "static/media/project3.png": "/static/media/project3.77d4928a709f09617b53.png",
     "static/media/project4.png": "/static/media/project4.f8e4bcda977d845a546b.png",
     "static/media/Sujan_Ban_Web_Developer.pdf": "/static/media/Sujan_Ban_Web_Developer.0951005ef76d7f61451d.pdf",
@@ -12,10 +13,10 @@
     "static/media/sujanban-frontend-developer-logo.webp": "/static/media/sujanban-frontend-developer-logo.cfa333c8194c2e792546.webp",
     "index.html": "/index.html",
     "main.0a2fea26.css.map": "/static/css/main.0a2fea26.css.map",
-    "main.b0489056.js.map": "/static/js/main.b0489056.js.map"
+    "main.314af8fa.js.map": "/static/js/main.314af8fa.js.map"
   },
   "entrypoints": [
     "static/css/main.0a2fea26.css",
-    "static/js/main.b0489056.js"
+    "static/js/main.314af8fa.js"
   ]
 }
