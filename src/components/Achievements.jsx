@@ -1,6 +1,4 @@
 import React from 'react';
-import { AiOutlineFolder } from "react-icons/ai";
-import { FiGithub } from "react-icons/fi";
 import { BiLinkExternal } from "react-icons/bi";
 import { BsAward } from "react-icons/bs";
 import { FiFlag } from "react-icons/fi";
