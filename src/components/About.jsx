@@ -1,7 +1,7 @@
 import React from 'react';
 import profile from '../images/pp-blur.png'
 import {
-  SiCss3,
+  SiCss,
   SiDigitalocean,
   SiGit,
   SiGithub,
@@ -24,7 +24,7 @@ import { GiAstronautHelmet } from "react-icons/gi";
 
 const techStack = [
   { name: "HTML", icon: SiHtml5, accent: "text-[#E34F26]" },
-  { name: "CSS", icon: SiCss3, accent: "text-[#1572B6]" },
+  { name: "CSS", icon: SiCss, accent: "text-[#1572B6]" },
   { name: "JavaScript", icon: SiJavascript, accent: "text-[#F7DF1E]" },
   { name: "Svelte", icon: SiSvelte, accent: "text-[#FF3E00]" },
   { name: "React", icon: SiReact, accent: "text-[#61DAFB]" },

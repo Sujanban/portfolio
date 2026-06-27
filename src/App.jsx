@@ -14,17 +14,22 @@ import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import Achievements from './components/Achievements';
 // import { Routes, Route } from "react-router-dom";
 
-
-
 function App() {
   const [loading, setLoading] = useState(false);
-  AOS.init();
+
   useEffect(() => {
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
+    AOS.init({
+      once: true,
+    });
+
+    setLoading(true);
+    const timer = setTimeout(() => {
+      setLoading(false);
     }, 2500);
+
+    return () => clearTimeout(timer);
   }, []);
+
   return (
     <>
       {loading ?
@@ -44,7 +49,7 @@ function App() {
           <About />
           <Work />
           <Project />
-          <Achievements/>
+          <Achievements />
           <Contact />
           <Footer />
         </div>

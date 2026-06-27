@@ -9,6 +9,9 @@ import project4 from "../images/project4.png";
 import MovieManiaNew from "../images/MovieManiaNew.png";
 import entranceParkDashboard from "../images/entrancepark-dashboard-polished.svg";
 
+const projectImageClass =
+  "w-full h-[100%] rounded transition duration-200 ease-in opacity-[0.35] hover:opacity-100";
+
 export const Project = () => {
   return (
     <div id="project" className="bg-bgmain text-colorprimary ">
@@ -27,7 +30,7 @@ export const Project = () => {
           <div className="relative py-4 md:py-8 flex items-center my-12">
             <div className="w-[60%] bg-[#1C4753] hidden md:block">
               <img
-                className=" transition duration-200 ease-in  opacity-[0.2] hover:opacity-100 w-full h-[100%] rounded"
+                className={`${projectImageClass} `}
                 src={project3}
                 alt="realestate marketplace developed by sujan ban"
               />
@@ -72,7 +75,7 @@ export const Project = () => {
           <div className="relative py-4 md:py-8 flex items-center my-12">
             <div className="w-[60%] bg-[#1C4753] md:ml-auto hidden md:block">
               <img
-                className="transition duration-200 ease-in w-full opacity-[0.7] hover:opacity-100 h-[100%] rounded ml-auto"
+                className={`${projectImageClass} ml-auto`}
                 src={MovieManiaNew}
                 alt="MovieMania - Movie Mania is a mobile app for discovering and searching movies, showing details like earnings, genres, ratings, cast, and more"
               />
@@ -120,7 +123,7 @@ export const Project = () => {
           <div className="relative py-4 md:py-8 flex items-center my-12">
             <div className="w-[60%] bg-[#1C4753] hidden md:block">
               <img
-                className="transition duration-200 ease-in opacity-[0.7] hover:opacity-100 w-full h-[100%] rounded"
+                className={projectImageClass}
                 src={entranceParkDashboard}
                 alt="EntrancePark dashboard for entrance exam preparation platform"
               />
@@ -169,7 +172,7 @@ export const Project = () => {
           <div className="relative py-4 md:py-8 flex items-center my-12">
             <div className="w-[60%] bg-[#1C4753] md:ml-auto  hidden md:block">
               <img
-                className=" transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto"
+                className={`${projectImageClass} ml-auto`}
                 src={project2}
                 alt="Shortner - Ads free URL Shortner by sujan ban"
               />
@@ -213,7 +216,7 @@ export const Project = () => {
           <div className="relative py-4 md:py-8 flex items-center my-12">
             <div className="w-[60%] bg-[#1C4753] hidden md:block">
               <img
-                className=" transition duration-200 ease-in  opacity-[0.2] hover:opacity-100 w-full h-[100%] rounded"
+                className={projectImageClass}
                 src={project1}
                 alt="realestate marketplace developed by sujan ban"
               />
@@ -253,7 +256,7 @@ export const Project = () => {
           <div className="relative py-4 md:py-8 flex items-center my-12">
             <div className="w-[60%] bg-[#1C4753] md:ml-auto  hidden md:block">
               <img
-                className=" transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto"
+                className={`${projectImageClass} ml-auto`}
                 src={project4}
                 alt="Shortner - Ads free URL Shortner by sujan ban"
               />
