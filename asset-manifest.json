@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.0a2fea26.css",
-    "main.js": "/static/js/main.95988172.js",
+    "main.js": "/static/js/main.f24dd9ac.js",
     "static/media/pp-blur.png": "/static/media/pp-blur.2374c5601495f87002ac.png",
     "static/media/MovieManiaNew.png": "/static/media/MovieManiaNew.e5ab87598a56bfaa1cd2.png",
-    "static/media/entrancepark-dashboard-polished.svg": "/static/media/entrancepark-dashboard-polished.655a12d14df2aa510e81484e38882047.svg",
+    "static/media/entrancepark-dashboard-polished.svg": "/static/media/entrancepark-dashboard-polished.45d6d6086b6d5afe659d6fd36cab64db.svg",
     "static/media/project3.png": "/static/media/project3.77d4928a709f09617b53.png",
     "static/media/project4.png": "/static/media/project4.f8e4bcda977d845a546b.png",
     "static/media/Sujan_Ban_Web_Developer.pdf": "/static/media/Sujan_Ban_Web_Developer.0951005ef76d7f61451d.pdf",
@@ -13,10 +13,10 @@
     "static/media/sujanban-frontend-developer-logo.webp": "/static/media/sujanban-frontend-developer-logo.cfa333c8194c2e792546.webp",
     "index.html": "/index.html",
     "main.0a2fea26.css.map": "/static/css/main.0a2fea26.css.map",
-    "main.95988172.js.map": "/static/js/main.95988172.js.map"
+    "main.f24dd9ac.js.map": "/static/js/main.f24dd9ac.js.map"
   },
   "entrypoints": [
     "static/css/main.0a2fea26.css",
-    "static/js/main.95988172.js"
+    "static/js/main.f24dd9ac.js"
   ]
 }
