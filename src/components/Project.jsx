@@ -7,6 +7,7 @@ import project2 from "../images/project2.webp";
 import project3 from "../images/project3.png";
 import project4 from "../images/project4.png";
 import MovieManiaNew from "../images/MovieManiaNew.png";
+import entranceParkDashboard from "../images/entrancepark-dashboard.png";
 
 export const Project = () => {
     return (
@@ -113,6 +114,30 @@ export const Project = () => {
                                     <a className='p-2' href="https://github.com/Sujanban/Shopzilla_Ecommerce" target='_blank'><FiGithub /></a>
                                     <a className='p-2 text-end' target='_blank' href="https://shopzillaecommerce.netlify.app/"><BiLinkExternal className='text-end' /></a>
                                 </li>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='relative py-4 md:py-8 flex items-center my-12'>
+                        <div className='w-[60%] bg-[#1C4753] hidden md:block'>
+                            <img className='transition duration-200 ease-in opacity-[0.7] hover:opacity-100 w-full h-[100%] rounded' src={entranceParkDashboard} alt="EntrancePark dashboard for entrance exam preparation platform" />
+                        </div>
+                        <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-end md:absolute bg-bgcard md:bg-transparent md:right-0'>
+                            <div className=''>
+                                <h3 className='p-4 md:px-0 md:py-4 text-neon text-sm md:text-base'>Featured Project</h3>
+                                <h1 className='p-4 md:px-0 md:py-4 text-xl md:text-2xl font-semibold'>EntrancePark</h1>
+                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>
+                                    EntrancePark is an entrance preparation platform for students preparing for IOE, CSIT, BCA, and related entrance exams. It includes classroom scheduling, mock tests, program browsing, and student dashboard views.
+                                </div>
+                                <li className='flex-wrap flex justify-start md:justify-end list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'>
+                                    <span className='p-2'>MERN Stack</span>
+                                    <span className='p-2'>MongoDB Atlas</span>
+                                    <span className='p-2'>DigitalOcean App Platform</span>
+                                    <span className='p-2'>GitHub CI/CD</span>
+                                </li>
+                                <p className='p-4 md:px-0 md:py-4 flex text-end md:float-right'>
+                                    <a className='p-2 text-end' target='_blank' rel='noreferrer' href="https://entrancepark.com/"><BiLinkExternal className='text-end' /></a>
+                                    <a className='p-2 text-end' target='_blank' rel='noreferrer' href="https://dashboard.entrancepark.com/"><BiLinkExternal className='text-end' /></a>
+                                </p>
                             </div>
                         </div>
                     </div>
