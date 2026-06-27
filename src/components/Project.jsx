@@ -6,6 +6,7 @@ import project1 from "../images/project1.webp";
 import project2 from "../images/project2.webp";
 import project3 from "../images/project3.png";
 import project4 from "../images/project4.png";
+import MovieManiaNew from "../images/MovieManiaNew.png";
 
 export const Project = () => {
     return (
@@ -85,6 +86,32 @@ export const Project = () => {
                                 <li className='p-4 md:px-0 md:py-4 list-none flex text-end'>
                                     <a className='p-2' href="https://github.com/Sujanban/agrobot" target='_blank'><FiGithub /></a>
                                     <a className='p-2 text-end' target='_blank' href="https://agrobot-cr5.pages.dev/"><BiLinkExternal className='text-end' /></a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='relative py-4 md:py-8 flex items-center my-12'>
+                        <div className='w-[60%] bg-[#1C4753] md:ml-auto hidden md:block'>
+                            <img className='transition duration-200 ease-in w-full opacity-[0.7] hover:opacity-100 h-[100%] rounded ml-auto' src={MovieManiaNew} alt="MovieMania - Movie Mania is a mobile app for discovering and searching movies, showing details like earnings, genres, ratings, cast, and more" />
+                        </div>
+                        <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-start md:absolute bg-bgcard md:bg-transparent left-0'>
+                            <div className=''>
+                                <h3 className='p-4 md:px-0 md:py-4 text-neon text-sm md:text-base'>Featured Project</h3>
+                                <h1 className='p-4 md:px-0 md:py-4 text-xl md:text-2xl font-semibold'>MovieMania</h1>
+                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>
+                                    Moviemania is a mobile app for discovering and searching movies, showing details like earnings, genres, ratings, cast, and more.
+                                </div>
+                                <li className='flex-wrap flex list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'>
+                                    <span className='p-2'>React Native</span>
+                                    <span className='p-2'>Tailwind CSS</span>
+                                    <span className='p-2'>Appwrite</span>
+                                    <span className='p-2'>TMDB API</span>
+                                    <span className='p-2'>Node.js + Express</span>
+                                    <span className='p-2'>MongoDB</span>
+                                </li>
+                                <li className='p-4 md:px-0 md:py-4 list-none flex text-end'>
+                                    <a className='p-2' href="https://github.com/Sujanban/Shopzilla_Ecommerce" target='_blank'><FiGithub /></a>
+                                    <a className='p-2 text-end' target='_blank' href="https://shopzillaecommerce.netlify.app/"><BiLinkExternal className='text-end' /></a>
                                 </li>
                             </div>
                         </div>
