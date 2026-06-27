@@ -7,7 +7,7 @@ import project2 from "../images/project2.webp";
 import project3 from "../images/project3.png";
 import project4 from "../images/project4.png";
 import MovieManiaNew from "../images/MovieManiaNew.png";
-import entranceParkDashboard from "../images/entrancepark-dashboard.png";
+import entranceParkDashboard from "../images/entrancepark-dashboard-polished.svg";
 
 export const Project = () => {
   return (
