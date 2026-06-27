@@ -3,7 +3,7 @@ import logoBig from "../images/sujanban-frontend-developer-logo.webp";
 import { RiBarChartHorizontalLine } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 // import cv from "../images/CV.pdf";
-import cv from '../images/Sujan_Ban_Web_Developer.pdf'
+import cv from '../images/sujan_ban_web_developer.pdf'
 
 export const Navbar = () => {
     const [state, setState] = useState(false);
