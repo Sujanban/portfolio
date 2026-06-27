@@ -62,13 +62,13 @@ export const Work = () => {
               <span className="text-neon">02. </span>Where I've Worked
             </h2>
           </li>
-          <div className="py-8 sm:grid sm:grid-cols-[1fr_5fr] gap-2">
+          <div className="py-8 sm:grid sm:grid-cols-[220px_minmax(0,1fr)] gap-2">
             {/* Left Sidebar */}
             <div className="flex sm:flex sm:flex-col items-center mb-4">
               {workData.map((job, index) => (
                 <li
                   key={index}
-                  className={`list-none mb-1 sm:w-full transtition duration-200 ease-in w-full p-4 text-sm ${selected === index ? "text-neon bg-slate-700" : "hover:text-neon hover:bg-slate-700"
+                  className={`list-none mb-1 sm:w-full transtition duration-200 ease-in w-full p-4 text-sm whitespace-nowrap ${selected === index ? "text-neon bg-slate-700" : "hover:text-neon hover:bg-slate-700"
                     } border-b-4 sm:border-b-0 sm:border-l-4 ${selected === index ? "border-neon" : "border-transparent"
                     }`}
                 >
